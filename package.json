@@ -1,0 +1,22 @@
+{
+  "name": "streamfile-cf",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker for streaming files via Telegram Bot API",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "telegram",
+    "bot",
+    "file-streaming"
+  ],
+  "author": "NarkAgni",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
